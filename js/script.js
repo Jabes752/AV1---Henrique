@@ -28,7 +28,7 @@ inputTarefa.addEventListener('input', function() {
 
 // ====== FUNÇÕES ======
 
-/**
+n/**
  * Valida se a tarefa está vazia
  * @param {string} texto - Texto da tarefa
  * @returns {boolean} - True se válida, false caso contrário
