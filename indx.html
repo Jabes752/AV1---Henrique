@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lista de Tarefas</title>
+	<link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+	<div class="container">
+		<h1>Minha Lista de Tarefas</h1>
+        
+		<form id="formulario">
+			<input 
+				type="text" 
+				id="inputTarefa" 
+				placeholder="Digite uma nova tarefa..." 
+				autofocus
+			>
+			<button type="submit">Adicionar</button>
+		</form>
+
+		<div id="mensagemErro" class="mensagem-erro"></div>
+
+		<ul id="listaTarefas" class="lista-tarefas">
+		</ul>
+
+		<p id="mensagemVazia" class="mensagem-vazia">Nenhuma tarefa adicionada ainda.</p>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
